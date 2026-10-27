@@ -1,0 +1,144 @@
+:root {
+  --bg-color: #5600a6;
+}
+.top {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 60px;
+  background-color: var(--bg-color);
+  border-radius: 0px 0px 50% 50%;
+}
+.bottom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 70px;
+  background-color: var(--bg-color);
+  position: sticky;
+  bottom: 0;
+  border-radius: 50% 50% 0px 0px;
+}
+.webname {
+  color: white;
+}
+.footer {
+  color: white;
+  text-align: center;
+}
+.footer a {
+  color: #b877f6;
+}
+.container {
+  min-height: 100vh;
+  width: 100%;
+}
+.container h2 {
+  text-align: center;
+}
+.addtodo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0px;
+  height: 40px;
+  min-width: 80vw;
+  max-width: 80vw;
+  margin: auto;
+}
+.addtodo input {
+  height: 100%;
+  width: 80%;
+}
+.addtodo button {
+  height: 100%;
+  width: 20%;
+}
+.addbtn {
+  background-color: #5600a6;
+  color: white;
+}
+.todos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.todo {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 80vw;
+  min-height: 50px;
+  background-color: #8400ff;
+  border: 3px solid #b877f6;
+  border-radius: 7px;
+  color: white;
+  padding: 10px;
+  position: relative;
+}
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+  gap: 5px;
+  height: 100%;
+}
+.buttons button {
+  background-color: #5600a6;
+  color: white;
+}
+button {
+  border: 2px solid white;
+  outline: none;
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 4px;
+}
+button:hover {
+  background-color: #8400ff;
+  transition: all 300ms;
+}
+.strike {
+  text-decoration: line-through;
+}
+.check {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+}
+.finished {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #8400ff;
+  color: white;
+  border-radius: 10px;
+  margin: auto;
+  width: 80vw;
+  max-width: 200px;
+  font-size: larger;
+  margin-top: 10px;
+  height: 45px;
+}
+.finished input {
+  display: none;
+}
+.finished label {
+  height: 45px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.toggleshow {
+  background-color: #5600a6;
+}
+.container h1{
+  text-align: center;
+}
